@@ -12,7 +12,7 @@ But here's the thing - an LLM's "brain" is only text-based. It can't magically c
 
 ## The Foundation: Your AI Assistant Gets Tools
 
-![The Augmented LLM](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20augmented%20LLM.png?raw=true)
+![The Augmented LLM](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20augmented%20LLM.png?raw=true)
 
 Think of this like giving your AI three basic abilities:
 
@@ -243,7 +243,7 @@ Before you build anything complex, get this working. Most problems? They stop he
 
 ### Pattern 1: Do This, Then That (Prompt Chaining)
 
-![The Prompt Chaining Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20prompt%20chaining%20workflow.png?raw=true)
+![The Prompt Chaining Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20prompt%20chaining%20workflow.png?raw=true)
 
 Perfect for tasks like: Write email → Check if it sounds professional → Send it
 
@@ -267,7 +267,7 @@ def write_and_send_email(request):
 
 ### Pattern 2: Sort and Route
 
-![The Routing Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20routing%20workflow.png?raw=true)
+![The Routing Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20routing%20workflow.png?raw=true)
 
 Like a really smart receptionist. Different questions go to different specialists.
 
@@ -291,7 +291,7 @@ def handle_customer_question(question):
 
 ### Pattern 3: Do Multiple Things at Once
 
-![The Parallelization Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20parallelization%20workflow.png?raw=true)
+![The Parallelization Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20parallelization%20workflow.png?raw=true)
 
 Two flavors:
 - **Split the work**: "Check the code for bugs" + "Check the code for style" simultaneously
@@ -303,7 +303,7 @@ Two flavors:
 
 ### Pattern 4: The Critic and Creator Duo
 
-![The Evaluator-Optimizer Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20evaluator-optimizer%20workflow.png?raw=true)
+![The Evaluator-Optimizer Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20evaluator-optimizer%20workflow.png?raw=true)
 
 One AI writes something. Another AI critiques it. First AI improves it. Repeat until it's good enough.
 
@@ -330,7 +330,7 @@ def write_with_feedback(task):
 
 ### Pattern 5: The Manager and Workers
 
-![The Orchestrator-Workers Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20orchestrator-workers%20workflow.png?raw=true)
+![The Orchestrator-Workers Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/The%20orchestrator-workers%20workflow.png?raw=true)
 
 Manager AI breaks down complex work and assigns pieces to specialist AIs. Then combines all the results.
 
@@ -340,7 +340,7 @@ Manager AI breaks down complex work and assigns pieces to specialist AIs. Then c
 
 ### Basic Agent: Acts on Its Own
 
-![Autonomous Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Autonomous%20agent.png?raw=true)
+![Autonomous Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/Autonomous%20agent.png?raw=true)
 
 Now we're talking about AI that actually makes decisions and takes actions without asking permission for every step.
 
@@ -590,7 +590,7 @@ def autonomous_agent(goal):
 
 ### The Ultimate: Coding Agent
 
-![High-Level Flow of a Coding Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/High-level%20flow%20of%20a%20coding%20agent.png?raw=true)
+![High-Level Flow of a Coding Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Images/High-level%20flow%20of%20a%20coding%20agent.png?raw=true)
 
 This is the most complex pattern, but it works because programming has built-in feedback loops (tests pass or fail).
 
