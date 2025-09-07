@@ -4,7 +4,8 @@ AI agents represent a shift from hardcoded logic to LLM-controlled workflows. Th
 
 ## Start Here: The Augmented LLM Foundation
 
-![The Augmented LLM](The augmented LLM.png)
+![The Augmented LLM](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20augmented%20LLM.png?raw=true)
+
 
 Everything starts with this - an LLM enhanced with three key capabilities:
 
@@ -30,7 +31,8 @@ def augmented_llm(user_input, context):
 
 ### 1. Prompt Chaining with Gates
 
-![The Prompt Chaining Workflow](The prompt chaining workflow.png)
+![The Prompt Chaining Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20prompt%20chaining%20workflow.png?raw=true)
+
 
 The simplest multi-step pattern:
 - Break task into sequential steps
@@ -57,7 +59,8 @@ def gated_chain(input_data):
 
 ### 2. Routing
 
-![The Routing Workflow](The routing workflow.png)
+![The Routing Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20routing%20workflow.png?raw=true)
+
 
 Like a smart switchboard:
 - Router LLM classifies the input type
@@ -82,7 +85,8 @@ def routing_workflow(user_input):
 
 ### 3. Parallelization
 
-![The Parallelization Workflow](The parallelization workflow.png)
+![The Parallelization Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20parallelization%20workflow.png?raw=true)
+
 
 Two main flavors:
 - **Sectioning**: Break into independent parallel subtasks
@@ -96,7 +100,8 @@ Two main flavors:
 
 ### 4. Evaluator-Optimizer
 
-![The Evaluator-Optimizer Workflow](The evaluator-optimizer workflow.png)
+![The Evaluator-Optimizer Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20evaluator-optimizer%20workflow.png?raw=true)
+
 
 Two LLMs working in tandem:
 - Generator creates potential solutions
@@ -126,7 +131,8 @@ def evaluator_optimizer(input_task):
 
 ### 5. Orchestrator-Workers  
 
-![The Orchestrator-Workers Workflow](The orchestrator-workers workflow.png)
+![The Orchestrator-Workers Workflow](https://github.com/probablyvivek/ai-engineering/blob/main/agents/The%20orchestrator-workers%20workflow.png?raw=true)
+
 
 More sophisticated parallel processing:
 - Orchestrator analyzes input and creates dynamic work plan
@@ -141,7 +147,8 @@ More sophisticated parallel processing:
 
 ### 6. Basic Autonomous Agent
 
-![Autonomous Agent](Autonomous agent.png)
+![Autonomous Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/Autonomous%20agent.png?raw=true)
+
 
 The fundamental agent pattern:
 - LLM autonomously takes actions in environment
@@ -169,7 +176,7 @@ def basic_agent(task):
 
 ### 7. Advanced Coding Agent
 
-![High-Level Flow of a Coding Agent](High-level flow of a coding agent.png)
+![High-Level Flow of a Coding Agent](https://github.com/probablyvivek/ai-engineering/blob/main/agents/High-level%20flow%20of%20a%20coding%20agent.png?raw=true)
 
 The most sophisticated pattern shown:
 
