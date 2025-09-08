@@ -2,8 +2,6 @@
 
 Based on the blog published by Anthropic, [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-Look, AI agents sound fancy. But honestly? Most of them are just chatbots with superpowers. Let me show you what really works, step by step.
-
 ## First Things First: What's an LLM?
 
 Before we dive into agents, let's understand the foundation. Think of a Large Language Model (LLM) as a super-advanced text prediction machine. It's been trained on massive amounts of data, so it's fantastic at understanding language and generating natural-sounding text, stories, or code.
